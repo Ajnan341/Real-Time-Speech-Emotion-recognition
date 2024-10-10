@@ -1,0 +1,163 @@
+a {
+  color: #337ab7;
+}
+
+p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+a:visited {
+  color: #8d75a3;
+}
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+}
+
+h1 {
+  text-decoration: none;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  font-size: 220%;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  color: #005A9C;
+  font-size: 140%;
+  text-transform: uppercase;
+}
+
+red {
+  color: red;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+button {
+  height: 75px;
+  min-width: 150px;
+  border: none;
+  background: #ed351d65;
+  backdrop-filter: blur(10px);
+  margin-left: 10px;
+  box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: #5bed1d65;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button:active {
+  box-shadow: inset 0 1px 0 rgba(38, 255, 0, 0.2);
+  line-height: 3rem;
+}
+
+button:disabled {
+  pointer-events: none;
+  background: rgba(2, 2, 2, 0.374);
+  backdrop-filter: blur(10px);
+}
+
+button:first-child {
+  margin-left: 0;
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+#formats {
+  margin-top: 0.5rem;
+  font-size: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#recordingsList {
+  max-width: 28em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#audio {
+  text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ff00005c;
+  backdrop-filter: blur(10px);
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: rgba(254, 0, 0, 0.7);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #00ff22;
+}
+
+.pupy{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode:soft-light;
+  background-image: url(https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+}
